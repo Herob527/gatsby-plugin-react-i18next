@@ -1,3 +1,6 @@
+# Disclaimer
+Seems core doesn't care even about updating their repo, I decided to fork and keep deps up to date 
+
 # gatsby-plugin-react-i18next
 
 Easily translate your Gatsby website into multiple languages.
