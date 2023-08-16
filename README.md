@@ -72,7 +72,7 @@ plugins: [
     }
   },
   {
-    resolve: `gatsby-plugin-react-i18next`,
+    resolve: `@herob/gatsby-plugin-react-i18next`,
     options: {
       localeJsonSourceName: `locale`, // name given to `gatsby-source-filesystem` plugin.
       languages: [`en`, `es`, `de`],
@@ -139,14 +139,14 @@ The default namespace is `translation`. [Read more about i18next namespaces](htt
 
 Use react i18next [`useTranslation`](https://react.i18next.com/latest/usetranslation-hook) react hook and [`Trans`](https://react.i18next.com/latest/trans-component) component to translate your pages.
 
-`gatsby-plugin-react-i18next` exposes all [`react-i18next`](https://react.i18next.com/) methods and components.
+`@herob/gatsby-plugin-react-i18next` exposes all [`react-i18next`](https://react.i18next.com/) methods and components.
 
-Replace [Gatsby `Link`](https://www.gatsbyjs.org/docs/gatsby-link) component with the `Link` component exported from `gatsby-plugin-react-i18next`
+Replace [Gatsby `Link`](https://www.gatsbyjs.org/docs/gatsby-link) component with the `Link` component exported from `@herob/gatsby-plugin-react-i18next`
 
 ```javascript
 import {graphql} from 'gatsby';
 import React from 'react';
-import {Link, Trans, useTranslation} from 'gatsby-plugin-react-i18next';
+import {Link, Trans, useTranslation} from '@herob/gatsby-plugin-react-i18next';
 import Layout from '../components/layout';
 import Image from '../components/image';
 import SEO from '../components/seo';
@@ -208,10 +208,10 @@ This example is not using semantic keys instead the entire message will be used 
 
 ### Changing the language
 
-`gatsby-plugin-react-i18next` exposes `useI18next` hook
+`@herob/gatsby-plugin-react-i18next` exposes `useI18next` hook
 
 ```javascript
-import {Link, useI18next} from 'gatsby-plugin-react-i18next';
+import {Link, useI18next} from '@herob/gatsby-plugin-react-i18next';
 import React from 'react';
 
 const Header = ({siteTitle}) => {
@@ -250,7 +250,7 @@ const Header = ({siteTitle}) => {
 Or a more SEO friendly version using `Link` component
 
 ```javascript
-import {Link, useI18next} from 'gatsby-plugin-react-i18next';
+import {Link, useI18next} from '@herob/gatsby-plugin-react-i18next';
 import PropTypes from 'prop-types';
 import React from 'react';
 
@@ -314,7 +314,7 @@ const Header = ({siteTitle}) => {
 `Link` component is identical to [Gatsby Link component](https://www.gatsbyjs.org/docs/gatsby-link/) except that you can provide additional `language` prop to create a link to a page with different language
 
 ```javascript
-import {Link} from 'gatsby-plugin-react-i18next';
+import {Link} from '@herob/gatsby-plugin-react-i18next';
 
 const SpanishAboutLink = () => (
   <Link to="/about" language="es">
@@ -519,7 +519,7 @@ In `/gatsby-config.js`, setup the plugin as usual, and add the key `options.i18n
 
 ```
 {
-    resolve: `gatsby-plugin-react-i18next`,
+    resolve: `@herob/gatsby-plugin-react-i18next`,
     options: {
         localeJsonSourceName: `locale`,
         languages: [`en`, `de`, `fr`],
@@ -581,7 +581,7 @@ module.exports = {
         useI18nextDefaultValue: ['en'],
         discardOldKeys: true,
         outputPath: 'locales/{{locale}}/{{ns}}.json',
-        customTransComponents: [['gatsby-plugin-react-i18next', 'Trans']]
+        customTransComponents: [['@herob/gatsby-plugin-react-i18next', 'Trans']]
       }
     ]
   ],
@@ -650,7 +650,7 @@ For example, if the default language of your site is Japanese, you only have Eng
 module.exports = {
   plugins: [
     {
-      resolve: 'gatsby-plugin-react-i18next',
+      resolve: '@herob/gatsby-plugin-react-i18next',
       options: {
         defaultLanguage: 'ja',
         fallbackLanguage: 'en'

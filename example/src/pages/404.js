@@ -2,7 +2,7 @@
 
 import {graphql} from 'gatsby';
 import React from 'react';
-import {useTranslation, Trans} from 'gatsby-plugin-react-i18next';
+import {useTranslation, Trans} from '@herob/gatsby-plugin-react-i18next';
 import Layout from '../components/layout';
 import Seo from '../components/seo';
 

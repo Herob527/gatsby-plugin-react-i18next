@@ -48,7 +48,7 @@ export const onCreateNode = async (
   let activity;
   if (verbose) {
     activity = reporter.activityTimer(
-      `gatsby-plugin-react-i18next: create node: ${relativeDirectory}/${name}`
+      `@herob/gatsby-plugin-react-i18next: create node: ${relativeDirectory}/${name}`
     );
     activity.start();
   }
