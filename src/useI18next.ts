@@ -9,7 +9,7 @@ import {LANGUAGE_KEY} from './types';
 declare var __BASE_PATH__: string | undefined;
 declare var __PATH_PREFIX__: string | undefined;
 
-export const useI18next = (ns?: Namespace, options?: UseTranslationOptions) => {
+export const useI18next = (ns?: Namespace, options?: UseTranslationOptions<string>) => {
   const {i18n, t, ready} = useTranslation(ns, options);
   const context = useContext(I18nextContext);
 
