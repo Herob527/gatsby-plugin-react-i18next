@@ -1,5 +1,7 @@
 # Disclaimer
-Seems core doesn't care even about updating their repo, I decided to fork and keep deps up to date 
+Seems core doesn't care even about updating their repo, I decided to fork and keep deps up to date
+
+Probably no new features from my side
 
 # gatsby-plugin-react-i18next
 
