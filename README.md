@@ -3,6 +3,8 @@ Seems core doesn't care even about updating their repo, I decided to fork and ke
 
 Probably no new features from my side
 
+[Click here to go to npm registry](https://www.npmjs.com/package/@herob/gatsby-plugin-react-i18next)
+
 # gatsby-plugin-react-i18next
 
 Easily translate your Gatsby website into multiple languages.
