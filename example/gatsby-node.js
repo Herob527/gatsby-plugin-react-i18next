@@ -1,6 +1,6 @@
 /**
  * Workaround for missing sitePage.context:
- * Used for generating sitemap with `@herob/gatsby-plugin-react-i18next` and `gatsby-plugin-sitemap` plugins
+ * Used for generating sitemap with `@herob191/gatsby-plugin-react-i18next` and `gatsby-plugin-sitemap` plugins
  * https://www.gatsbyjs.com/docs/reference/release-notes/migrating-from-v3-to-v4/#field-sitepagecontext-is-no-longer-available-in-graphql-queries
  */
 exports.createSchemaCustomization = ({actions}) => {

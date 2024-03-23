@@ -15,7 +15,7 @@ module.exports = {
         discardOldKeys: true,
         defaultNS: 'common',
         outputPath: 'locales/{{locale}}/{{ns}}.json',
-        customTransComponents: [['@herob/gatsby-plugin-react-i18next', 'Trans']]
+        customTransComponents: [['@herob191/gatsby-plugin-react-i18next', 'Trans']]
       }
     ]
   ]

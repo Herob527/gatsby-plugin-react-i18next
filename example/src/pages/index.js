@@ -1,7 +1,7 @@
 // i18next-extract-mark-ns-start index
 
 import React from 'react';
-import {Link, Trans, useTranslation} from '@herob/gatsby-plugin-react-i18next';
+import {Link, Trans, useTranslation} from '@herob191/gatsby-plugin-react-i18next';
 import {graphql, Link as GatsbyLink} from 'gatsby';
 import {StaticImage} from 'gatsby-plugin-image';
 import Layout from '../components/layout';

@@ -1,4 +1,4 @@
-import {Link, useI18next} from '@herob/gatsby-plugin-react-i18next';
+import {Link, useI18next} from '@herob191/gatsby-plugin-react-i18next';
 import PropTypes from 'prop-types';
 import './header.css';
 import React from 'react';

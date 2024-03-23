@@ -4,7 +4,7 @@ import {graphql} from 'gatsby';
 import React from 'react';
 import Layout from '../components/layout';
 import Seo from '../components/seo';
-import {Link, useTranslation, Trans} from '@herob/gatsby-plugin-react-i18next';
+import {Link, useTranslation, Trans} from '@herob191/gatsby-plugin-react-i18next';
 
 const SecondPage = (props) => {
   return (

@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../components/layout';
 import Seo from '../components/seo';
-import {Link} from '@herob/gatsby-plugin-react-i18next';
+import {Link} from '@herob191/gatsby-plugin-react-i18next';
 
 const IgnoredPage = (props) => {
   return (
