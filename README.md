@@ -6,6 +6,11 @@ Probably no new features from my side
 
 [Click here to go to npm registry](https://www.npmjs.com/package/@herob191/gatsby-plugin-react-i18next)
 
+# Attention
+
+Recently I moved to another npm account so if you want updates, move from
+`@herob/gatsby-plugin-react-i18next` to `@herob191/gatsby-plugin-react-i18next`
+
 # gatsby-plugin-react-i18next
 
 Easily translate your Gatsby website into multiple languages.
