@@ -1,5 +1,5 @@
-import {InitOptions} from 'i18next';
-import {NodeInput} from 'gatsby';
+import type {InitOptions} from 'i18next';
+import type {NodeInput} from 'gatsby';
 
 export const LANGUAGE_KEY = 'gatsby-i18next-language';
 

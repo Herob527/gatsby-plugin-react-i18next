@@ -1,5 +1,5 @@
 import {CreateNodeArgs, Node} from 'gatsby';
-import {FileSystemNode, PluginOptions, LocaleNodeInput} from '../types';
+import type {FileSystemNode, PluginOptions, LocaleNodeInput} from '../types';
 
 export function unstable_shouldOnCreateNode({node}: {node: Node}) {
   // We only care about JSON content.

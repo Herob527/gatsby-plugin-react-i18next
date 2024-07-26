@@ -1,7 +1,7 @@
 import {CreatePageArgs, Page} from 'gatsby';
 import BP from 'bluebird';
 import {match} from 'path-to-regexp';
-import {PageContext, PageOptions, PluginOptions} from '../types';
+import type {PageContext, PageOptions, PluginOptions} from '../types';
 
 export const onCreatePage = async (
   {page, actions}: CreatePageArgs<PageContext>,

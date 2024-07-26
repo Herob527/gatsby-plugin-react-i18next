@@ -1,5 +1,5 @@
 import {ParentSpanPluginArgs} from 'gatsby';
-import {PluginOptions} from '../types';
+import type {PluginOptions} from '../types';
 
 export const onPreBootstrap = (_args: ParentSpanPluginArgs, pluginOptions: PluginOptions) => {
   // Check for deprecated option.
