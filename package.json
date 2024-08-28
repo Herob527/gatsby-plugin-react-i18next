@@ -1,6 +1,6 @@
 {
   "name": "@herob191/gatsby-plugin-react-i18next",
-  "version": "3.0.18",
+  "version": "3.0.19",
   "description": "Easily translate your Gatsby website into multiple languages",
   "main": "index.js",
   "types": "index.d.ts",
